@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oneyel Coffee is a Simple Web Coffee Shop">
+    <title>Oneyel Coffee</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/icon/logo.svg">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <!-- Logo -->
+          <a class="logo" href="#">
+            <img src="assets/images/icon/logo.svg" class="logo-img" alt="Logo Coffee">
+          </a>
+          <!-- Hamburger Button -->
+          <button class="nav-toggle effect" type="button" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <!-- Navigasi -->
+          <div id="wrapper">
+            <ul>
+              <li>
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#story">Story</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#location">Location</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <div id="home" class="spy">
+          <!-- Main Image -->
+          <section class="banner"></section>
+          <div class="containers">
+            <div class="col">
+              <h1>Oneyel Coffee</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Story Section -->
+        <article id="story" class="spy">
+          <!-- Text -->
+          <div class="story-text">
+            <h2>Story.</h2>
+            <p>Oneyel Coffee was founded in August 2020 in a simple rented building. Oneyel Coffee focuses on being a comfortable place to work and hangout for everyone without forgetting to provide the best service for all visitors.</p>
+          </div>
+          <!-- Image -->
+          <div class="story-img">
+            <img src="assets/images/story.png" alt="Story Image">
+          </div>
+        </article>
+
+        <!-- Menu Section -->
+        <article id="menu" class="spy">
+          <!-- Title -->
+          <div class="judul">
+            <h2>Menu.</h2>
+          </div>
+          <!-- Menu Image -->
+          <div class="menu">
+            <div class="menu-img">
+              <img src="assets/images/menu-a.png" alt="Menu-A Image">
+              <p>Coffee</p>
+            </div>
+            <div class="menu-img">
+              <img src="assets/images/menu-b.png" alt="Menu-B Image">
+              <p>Non-Coffee</p>
+            </div>
+            <div class="menu-img">
+              <img src="assets/images/menu-c.png" alt="Menu-C Image">
+              <p>Dessert</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Location Section-->
+        <article id="location" class="spy">
+          <!-- Title -->
+          <div class="judul">
+            <h2>Location.</h2>
+          </div>
+          <div class="loc">
+            <!-- Image -->
+            <div class="lc-img">
+              <img src="assets/images/in-store.png" alt="Location Image">
+            </div>
+            <!-- Maps -->
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15840.466411173998!2d107.55135655403136!3d-6.995546400705037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68eeb9a34c05a7%3A0x318f747d908782d9!2zNsKwNTknNDQuMCJTIDEwN8KwMzMnMzYuNCJF!5e0!3m2!1sen!2sid!4v1621666148862!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" title="Maps" loading="lazy"></iframe>
+            </div>
+            <!-- Address Text -->
+            <div class="loc-text">
+              <p>
+                <span><img src="assets/images/icon/map.svg" alt="location icon"></span> Gg. Hilir 10, Sangkanhurip, Katapang, Bandung, Jawa Barat 40921
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Contact Section -->
+        <article id="contact" class="spy">
+          <!-- Title -->
+          <div class="judul">
+            <h2>Contact.</h2>
+          </div>
+          <div class="container-ctc">
+            <!-- Left -->
+            <div class="contact-left">
+              <!-- Text -->
+              <div class="text">
+                <p><span><img src="assets/images/icon/phone.svg" alt="icon phone"></span>+6289 6770 18707</p>
+                <p><span><img src="assets/images/icon/mail.svg" alt="icon message"></span>coffee@oneyel.com</p>
+                <p><span><img src="assets/images/icon/instagram.svg" alt="icon instagram"></span>@oneyel_coffee</p>
+              </div>
+              <!-- Ojek Image -->
+              <div class="ojek-logo">
+                <img src="assets/images/gofood.png" alt="GoFood Logo">
+                <img src="assets/images/grabfood.png" alt="GrabFood Logo">
+              </div>
+            </div>
+            <!-- Right -->
+            <div class="contact-right">
+              <!-- Input -->
+              <div class="input">
+                <label for="mail">Enter your E-mail and get special voucher!</label>
+                <form action="#">
+                  <input type="email" id="mail" required>
+                  <input type="submit" value="I Want!">
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Profile -->
+      <aside>
+        <article class="profile">
+          <div class="biodata">
+            <h2>Web Designer</h2>
+            <img src="assets/images/profile-pic.png" alt="Profile Pict">
+          </div>
+          <section>
+            <p>Name</p>
+            <span>Yelly Putri Wahyu Ningsih</span>
+          </section>
+          <section>
+            <p>Email</p>
+            <span>yellyputriw@gmail.com</span>
+          </section>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <!-- Copyright -->
+      <p>Copyright &#169; 2021 Oneyel Coffee</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
