@@ -29,7 +29,6 @@ header .active {
 header.sticky {
   padding: 25px 100px;
   background-color: #30475e;
-  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.06);
 }
 
 header.sticky ul li a {
