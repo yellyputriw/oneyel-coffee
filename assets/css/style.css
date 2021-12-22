@@ -247,11 +247,13 @@ nav ul li a {
 }
 
 .loc {
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 50px;
+  align-items: center;
+  margin: 50px auto;
 }
 
 .lc-img img {
@@ -272,6 +274,7 @@ nav ul li a {
 /* CONTACT  */
 #contact {
   padding: 50px 0;
+  height: 80vh;
 }
 
 #contact .container-ctc {
@@ -441,6 +444,14 @@ footer p {
     margin-top: 50px;
   }
 
+  .loc {
+    flex-direction: column;
+  }
+
+  #contact {
+    height: 100%;
+  }
+
   #contact .container {
     padding: 0;
     justify-content: center;
@@ -552,7 +563,15 @@ footer p {
   }
 
   .col {
-    left: 25%;
+    left: 15%;
+  }
+
+  .col h1 {
+    font-size: 2.5em;
+  }
+
+  .judul h2 {
+    font-size: 2rem;
   }
 
   .story-text p {
@@ -572,6 +591,11 @@ footer p {
   }
 
   .loc-text p {
+    font-size: 1rem;
+  }
+
+  .contact-left .text p,
+  .contact-right .input label {
     font-size: 1rem;
   }
 }
