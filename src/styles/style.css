@@ -195,7 +195,9 @@ nav ul li a {
 
 .story-text p {
   color: #6b7682;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
 }
 
 .story-img {
@@ -448,11 +450,11 @@ footer p {
     flex-direction: column;
   }
 
-  #contact {
+  contact {
     height: 100%;
   }
 
-  #contact .container {
+  contact .container {
     padding: 0;
     justify-content: center;
     flex-direction: column;
@@ -529,13 +531,13 @@ footer p {
     font-size: 3em;
   }
 
-  #story {
+  story {
     display: flex;
     flex-direction: column-reverse !important;
     justify-content: center;
   }
 
-  #contact .container-ctc {
+  contact .container-ctc {
     margin: 50px 0;
   }
 
