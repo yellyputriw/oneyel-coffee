@@ -516,7 +516,7 @@ footer p {
   }
 
   main .banner {
-    background-image: url('../images/banner-mobile.png');
+    background-image: url('../public/images/banner-mobile.png');
     background-size: cover;
     background-position: center;
   }
