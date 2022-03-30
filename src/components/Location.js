@@ -35,4 +35,4 @@ class Locations extends HTMLElement {
   }
 }
 
-customElements.define('oc-location', Locations);
+customElements.define('coffee-location', Locations);

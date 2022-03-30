@@ -48,4 +48,4 @@ class Contact extends HTMLElement {
   }
 }
 
-customElements.define('oc-contact', Contact);
+customElements.define('coffee-contact', Contact);

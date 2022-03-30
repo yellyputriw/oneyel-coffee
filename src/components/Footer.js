@@ -4,8 +4,12 @@ class Footer extends HTMLElement {
   }
 
   render() {
-    this.innerHTML = /* HTML */ ` <p>Copyright &#169; 2021 Oneyel Coffee</p> `;
+    this.innerHTML = /* HTML */ `
+      <footer>
+        <p>Copyright &#169; 2021 Oneyel Coffee</p>
+      </footer>
+    `;
   }
 }
 
-customElements.define('oc-footer', Footer);
+customElements.define('coffee-footer', Footer);

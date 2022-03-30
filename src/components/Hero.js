@@ -19,4 +19,4 @@ class Hero extends HTMLElement {
   }
 }
 
-customElements.define('oc-hero', Hero);
+customElements.define('coffee-hero', Hero);

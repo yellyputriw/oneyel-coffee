@@ -30,4 +30,4 @@ class Menu extends HTMLElement {
   }
 }
 
-customElements.define('oc-menu', Menu);
+customElements.define('coffee-menu', Menu);

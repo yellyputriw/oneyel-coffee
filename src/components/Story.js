@@ -20,4 +20,4 @@ class Story extends HTMLElement {
   }
 }
 
-customElements.define('oc-story', Story);
+customElements.define('coffee-story', Story);

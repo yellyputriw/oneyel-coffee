@@ -45,4 +45,4 @@ class Navbar extends HTMLElement {
   }
 }
 
-customElements.define('oc-navbar', Navbar);
+customElements.define('coffee-navbar', Navbar);
